@@ -1,8 +1,36 @@
 #hero, #footer{
     background: #1f2937;
 }
+#hero{
+    padding-bottom: 20px;
+}
 #mainText{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+#secondaryText, #link{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+button, #callToAction{
+    background-color: #3882f6;
+}
+#infoHead{
+    font-size: 36px;
+    font-weight: bolder;
+    background: #1f2937;
+}
+#quote{
+    background: #e5e7eb;
+}
+#quoteText{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
 }
