@@ -1,11 +1,45 @@
+*{
+    text-align: center;
+}
 #hero, #footer{
     background: #1f2937;
 }
 #hero{
     padding-bottom: 20px;
+}
+#her{
+    height: auto;
+    width: 70%;
+    margin-left: 15%;
+}
+#hero1{
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48.2%;
+}
+.link a{
+    text-decoration: none;
+    margin: 0px 20px;
+}
+#hero2{
+    display: flex;
+    align-items: center;
+    
+}
+#main, #secondaryText{
+    text-align: left;
+}
+#main{
+    flex-grow: 2;
+}
+#holder{
+    flex-grow: 2;
+    padding: 20px 140px;
+    background: #757575;
 }
 #mainText{
+    text-align: left;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -13,6 +47,10 @@
 #secondaryText, #link{
     font-size: 18px;
     color: #e5e7eb;
+}
+#space{
+    padding: 0px 30px;
+    flex-grow: 1;
 }
 #logo{
     font-size: 24px;
@@ -34,6 +72,4 @@ button, #callToAction{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-}#hero1{
-    align-items: center;
 }
