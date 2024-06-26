@@ -56,7 +56,7 @@
     font-size: 24px;
     color: #f9faf8;
 }
-button, #callToAction{
+button{
     background-color: #3882f6;
 }
 #infoHead{
@@ -66,20 +66,63 @@ button, #callToAction{
 #illust{
     display: flex;
     align-items: center;
+    height: auto;
+    width: 80%;
+    margin: 0 20%;
+    flex-wrap: wrap;
+    gap: 50px;
 }
-#illustrate{
-}
+/*#illustrate{
+    flex-wrap: wrap;
+    gap: 20px;
+}*/
 .illustration{
-    padding: 60px 10px;
-    border: 5px solid #3882f6;
+    padding: 60px;
+    border: 3px solid #3882f6;
     border-radius: 10px;
 }
 #quote{
     background: #e5e7eb;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+#qu{
+    height: auto;
+    width: 70%;
+    margin: 0 15%;
 }
 #quoteText{
+    text-align: justify;
     color: #1f2937;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+}
+#name{
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+#callToAction{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    height: auto;   
+    width: 60%;
+    padding: 20px 0px;
+    margin: 40px 20%;
+    border-radius: 50px;
+    gap: 20%;
+}
+#call1{
+    margin-left: 5%;
+}
+#call1 h3, #call1 p{
+    text-align: left;
+    color: white;
+}
+#footer p{
+    padding: 30px 0;
+    font-size: small;
+    color: white;
 }
