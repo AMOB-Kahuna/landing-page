@@ -5,18 +5,20 @@
     background: #1f2937;
 }
 #hero{
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 #her{
-    height: auto;
     width: 70%;
-    margin-left: 15%;
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
 #hero1{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 48.2%;
 }
 .link a{
     color: white;
@@ -24,20 +26,28 @@
     margin: 0px 20px;
 }
 #hero2{
+    height: 200px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    
 }
-#main, #secondaryText{
+#secondaryText{
     text-align: left;
 }
 #main{
-    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+#space{
+    width: 100px;
 }
 #holder{
-    flex-grow: 2;
-    padding: 20px 140px;
+    height: 200px;
+    width: 600px;
     background: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #mainText{
     text-align: left;
@@ -49,15 +59,16 @@
     font-size: 18px;
     color: #e5e7eb;
 }
-#space{
-    padding: 0px 30px;
-    flex-grow: 1;
-}
+
 #logo{
     font-size: 24px;
     color: #f9faf8;
 }
 button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
     background-color: #3882f6;
 }
 #infoHead{
@@ -66,17 +77,11 @@ button{
 }
 #illust{
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: auto;
-    width: 80%;
-    margin: 0 21%;
-    flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
 }
-/*#illustrate{
-    flex-wrap: wrap;
-    gap: 20px;
-}*/
+
 .illustration{
     padding: 60px;
     border: 3px solid #3882f6;
@@ -114,6 +119,9 @@ button{
     margin: 40px 20%;
     border-radius: 50px;
     gap: 20%;
+}
+#sign{
+    border: solid 1px white;
 }
 #call1{
     margin-left: 5%;
