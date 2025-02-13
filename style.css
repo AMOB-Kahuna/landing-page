@@ -1,4 +1,6 @@
-*{
+body{
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 #hero, #footer{
@@ -134,4 +136,5 @@ button{
     padding: 30px 0;
     font-size: small;
     color: white;
+    margin-bottom: 0;
 }
